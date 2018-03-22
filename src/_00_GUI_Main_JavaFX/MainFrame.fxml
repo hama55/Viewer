@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="330.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_00_GUI_Main_JavaFX.JavaFXController">
+   <children>
+      <HBox>
+         <children>
+            <ComboBox fx:id="comboToolChange" prefWidth="150.0" />
+            <Pane />
+            <Button fx:id="buttonRotation" mnemonicParsing="false" onMouseClicked="#buttonRotation_OnClicked" text="Rotation" />
+            <Button fx:id="buttonPan" mnemonicParsing="false" onMouseClicked="#buttonPan_OnClicked" text="Pan" />
+            <Button fx:id="buttonZoom" mnemonicParsing="false" onMouseClicked="#buttonZoom_OnClicked" text="Zoom" />
+         </children>
+      </HBox>
+      <HBox fx:id="HBoxProcedure" prefHeight="0.0" prefWidth="447.0" />
+      <SplitPane dividerPositions="0.3" VBox.vgrow="ALWAYS">
+        <items>
+          <AnchorPane>
+               <children>
+                  <TreeView fx:id="treeviewItems" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="AnchorPaneMainView" />
+        </items>
+      </SplitPane>
+   </children>
+</VBox>

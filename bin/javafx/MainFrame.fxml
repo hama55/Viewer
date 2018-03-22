@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="330.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.JavaFXController">
+   <children>
+      <HBox>
+         <children>
+            <ComboBox fx:id="comboToolChange" prefWidth="150.0" />
+            <Pane />
+            <Button fx:id="buttonRotation" mnemonicParsing="false" onMouseClicked="#buttonRotation_OnClicked" text="Rotation" />
+            <Button fx:id="buttonPan" mnemonicParsing="false" onMouseClicked="#buttonPan_OnClicked" text="Pan" />
+            <Button fx:id="buttonZoom" mnemonicParsing="false" onMouseClicked="#buttonZoom_OnClicked" text="Zoom" />
+            <Label fx:id="labelTest" text="Label" />
+         </children>
+      </HBox>
+      <SplitPane dividerPositions="0.3" VBox.vgrow="ALWAYS">
+        <items>
+          <AnchorPane>
+               <children>
+                  <TreeTableView fx:id="treeTableView" layoutX="-54.0" layoutY="34.0" prefHeight="160.0" prefWidth="86.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TreeTableColumn prefWidth="39.0" text="C1" />
+                      <TreeTableColumn prefWidth="111.0" text="C2" />
+                    </columns>
+                  </TreeTableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="AnchorPaneMainView" />
+        </items>
+      </SplitPane>
+   </children>
+</VBox>
