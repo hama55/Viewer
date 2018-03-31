@@ -1,6 +1,6 @@
 package _12_Base_Color_etc;
 
-import utility.util;
+import _42_Utility.util;
 
 abstract public class Color_Base
 {

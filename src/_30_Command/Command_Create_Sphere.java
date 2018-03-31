@@ -9,16 +9,16 @@ import _00_GUI_Main_JavaFX.Main;
 import _20_Object_Template.Display_3D_Object_Imp;
 import _20_Object_Template.TreeItem_Imp;
 import _20_Object_Template.Entity_Imp;
-import _22_Object_Primitive.Object_04_Sphere;
+import _23_Object_Iroiro.Object_04_Sphere;
 import _20_Object_Template.TreeItem_Imp_Data;
 import _40_Value.Value_Double;
+import _42_Utility.XmlData;
 import java.util.ArrayList;
 import javafx.scene.Node;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.TreeItem;
 import javafx.scene.input.MouseEvent;
-import utility.util;
-import xml.XmlData;
+import _42_Utility.util;
 
 /**
  *

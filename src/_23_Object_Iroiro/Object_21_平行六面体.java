@@ -1,9 +1,6 @@
 package _23_Object_Iroiro;
 
 import _20_Object_Template.TreeItem_Imp;
-import _22_Object_Primitive.Object_03_Point;
-import _22_Object_Primitive.Object_01_Face;
-import _22_Object_Primitive.Object_05_Triangle;
 import java.util.ArrayList;
 import java.util.List;
 import javafx.scene.Group;
@@ -11,7 +8,7 @@ import javafx.scene.Node;
 
 //import javax.media.opengl.GL;
 
-import utility.util;
+import _42_Utility.util;
 
 import _12_Base_Color_etc.DrawPen;
 import _12_Base_Color_etc.Material;

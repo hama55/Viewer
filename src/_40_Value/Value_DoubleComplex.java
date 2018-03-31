@@ -1,12 +1,14 @@
 package _40_Value;
 
 import _20_Object_Template.TreeItem_Imp;
-import mathmatic.Mathmatic;
+//import mathmatic.Mathmatic;
 import _20_Object_Template.Entity_Imp;
+import _41_Mathatic.Imp_Value1;
+import _41_Mathatic.Mathmatic;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.TreeItem;
-import utility.util;
-import mathmatic.Imp_Value1;
+import _42_Utility.util;
+//import mathmatic.Imp_Value1;
 
 public class Value_DoubleComplex
 	implements

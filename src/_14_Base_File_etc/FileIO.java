@@ -1,7 +1,7 @@
 package _14_Base_File_etc;
 
 import _20_Object_Template.Entity_Directory;
-import xml.XmlData;
+import _42_Utility.XmlData;
 
 public interface FileIO 
 {

@@ -12,13 +12,13 @@ import _20_Object_Template.TreeItem_Imp;
 import _20_Object_Template.TreeItem_Imp_Data;
 import _23_Object_Iroiro.Object_22_楕円体;
 import _40_Value.Value_DoubleComplex;
+import _42_Utility.XmlData;
 import java.util.ArrayList;
 import javafx.scene.Node;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.TreeItem;
 import javafx.scene.input.MouseEvent;
-import utility.util;
-import xml.XmlData;
+import _42_Utility.util;
 
 /**
  *

@@ -1,6 +1,6 @@
 package _12_Base_Color_etc;
 
-import utility.util;
+import _42_Utility.util;
 
 public class Color_Red extends Color_Base
 {

@@ -1,7 +1,7 @@
 package _24_Object_Mesh;
 
 import _20_Object_Template.TreeItem_Imp;
-import _22_Object_Primitive.Object_03_Point;
+import _23_Object_Iroiro.Object_03_Point;
 import javafx.scene.Node;
 
 

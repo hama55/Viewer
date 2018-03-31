@@ -5,8 +5,7 @@ import java.util.ArrayList;
 import _20_Object_Template.Entity_Directory;
 import _14_Base_File_etc.FileIO;
 import _14_Base_File_etc.FileInputOutput;
-import utility.util;
-import xml.XmlData;
+import _42_Utility.util;
 
 public class DrawPen
 //	implements FileIO

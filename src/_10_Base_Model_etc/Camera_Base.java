@@ -1,6 +1,8 @@
 package _10_Base_Model_etc;
 
 import _20_Object_Template.Entity_Directory;
+import _41_Mathatic.Mathmatic;
+//import _41_Mathatic.*;
 import javafx.scene.Camera;
 import javafx.scene.PerspectiveCamera;
 import javafx.scene.transform.Translate;
@@ -9,8 +11,8 @@ import javafx.geometry.Point3D;
 import javafx.scene.DepthTest;
 import javafx.scene.transform.Rotate;
 
-import mathmatic.Mathmatic;
-import utility.util;
+//import mathmatic.Mathmatic;
+import _42_Utility.util;
 
 
 //************************************************************************//
@@ -192,7 +194,6 @@ public class Camera_Base
 	/**
 	 *	setter
 	 *
-	 *	@return
 	 */
 	//************************************************************************//
 	public void set_AngleF(double angle){m_angle_f = angle;};

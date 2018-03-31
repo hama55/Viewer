@@ -8,12 +8,12 @@ import _20_Object_Template.TreeItem_Imp_Data;
 import javafx.scene.input.MouseEvent;
 import _40_Value.Value_DoubleComplex;
 import _23_Object_Iroiro.Object_20_放物線;
+import _42_Utility.XmlData;
 import java.util.ArrayList;
 import javafx.scene.Node;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.TreeItem;
-import utility.util;
-import xml.XmlData;
+import _42_Utility.util;
 
 //import module.Module_MathmaticsWorld;
 

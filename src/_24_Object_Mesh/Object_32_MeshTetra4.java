@@ -1,8 +1,8 @@
 package _24_Object_Mesh;
 
 import _20_Object_Template.TreeItem_Imp;
-import _22_Object_Primitive.Object_03_Point;
-import _22_Object_Primitive.Object_05_Triangle;
+import _23_Object_Iroiro.Object_03_Point;
+import _23_Object_Iroiro.Object_05_Triangle;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +13,8 @@ import javafx.scene.Node;
 //import javax.media.opengl.GL;
 //import com.sun.opengl.util.GLUT;
 
-import mathmatic.Mathmatic;
+//import mathmatic.Mathmatic;
+import _41_Mathatic.Mathmatic;
 import _20_Object_Template.Display_3D_Object_Imp;
 import _20_Object_Template.Entity_Imp;
 import _20_Object_Template.TreeItem_Imp_Data;
@@ -356,16 +357,17 @@ public class Object_32_MeshTetra4
 	/**
 	*	表示する面か判定。表示の場合は構成する3節点と法線方向を出力
 	*
-	*	@param
+	 * @param nFaceId
+	 * @param dNormal
+	 * @param arryObjGrid
 	*	@return
 	*	@version
 	*/
 	//************************************************************************//
 	public boolean ask_display_face(
-		int							nFaceId, 		//面の番号
-		double[]					dNormal, 		//面の法線方向
-		ArrayList<Object_31_MeshNode>	arryObjGrid		//面を構成する3節点
-	)
+		int								nFaceId,		//面の番号
+		double[]						dNormal,		//面の法線方向
+		ArrayList<Object_31_MeshNode>	arryObjGrid)	//面を構成する3節点
 	{
 		//面番号かチェック
 		if(nFaceId < 0 || 4 < nFaceId)
